@@ -14,6 +14,7 @@ rotas.post('/login', login)
 // MIDDLEWARE QUE VERIFICA LOGIN
 rotas.use(verificarLogin);
 
+// ENDPOINTS PARA LISTAGEM, CADASTRO, ATUALIZAÇÃO E EXCLUSÃO DE DADOS CADASTRADOS DAS EMPRESAS NO BD
 rotas.get('/empresas', listarEmpresas);
 rotas.get('/empresas/:id', obterEmpresa);
 rotas.post('/empresas', cadastrarEmpresa);
