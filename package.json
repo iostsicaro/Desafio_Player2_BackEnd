@@ -1,0 +1,35 @@
+{
+  "name": "desafioplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iostsicaro/Desafio_Player2_BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iostsicaro/Desafio_Player2_BackEnd/issues"
+  },
+  "homepage": "https://github.com/iostsicaro/Desafio_Player2_BackEnd#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.21",
+    "mysql2": "^2.3.0",
+    "yup": "^0.32.9",
+    "yup-locales": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
