@@ -84,7 +84,7 @@ Tabela para armazenar os dados de telefone, das empresas cadastradas na API.
 ### SOCIOS
 ---
 
-Tabela para armazenar os dados de telefone, das empresas cadastradas na API.
+Tabela para armazenar os dados de sócios, das empresas cadastradas na API.
 
 | Coluna                        | Tipo              | NOT NULL? | PK? | REFERENCES      | DEFAULT   |
 | --------                      | --------          | --------- | --- | ----------      | -------   |
